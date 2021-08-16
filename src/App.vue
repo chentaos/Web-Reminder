@@ -28,15 +28,6 @@ export default {
       this.showAddTask = !this.showAddTask;
     },
   },
-  computed: {
-    homePage() {
-      if (this.$route.path === "/") {
-        return true;
-      } else {
-        return false;
-      }
-    },
-  },
 };
 </script>
 
